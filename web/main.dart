@@ -2,9 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 import 'package:flutter_web_ui/ui.dart' as ui;
-import 'package:blood_bank/main.dart' as app;
+import 'package:blood_bank/main.dart' as app1;
 
 main() async {
   await ui.webOnlyInitializePlatform();
-  app.main();
+  app1.main();
 }
